@@ -1,0 +1,8 @@
+* [Inicio](/)
+* [Buenas Prácticas de Código](buenas-practicas/)
+  * [SOLID](buenas-practicas/solid/)
+    * [S - Responsabilidad Única](buenas-practicas/solid/principio-s)
+    * [O - Abierto/Cerrado](buenas-practicas/solid/principio-o)
+    * [L - Substitución de Liskov](buenas-practicas/solid/principio-l)
+    * [I - Segregación de Interfaces](buenas-practicas/solid/principio-i)
+    * [D - Inversión de Dependencias](buenas-practicas/solid/principio-d)
