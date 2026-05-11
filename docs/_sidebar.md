@@ -8,3 +8,5 @@
     * [D - Inversión de Dependencias](buenas-practicas/solid/principio-d)
 * [Ejercicios](Ejercicios/)
   * [Números Narcisistas](Ejercicios/numero_narcisista.md)
+  * [Máscara de tarjeta de crédito](Ejercicios/mascara_tarjeta_credito.md)
+
