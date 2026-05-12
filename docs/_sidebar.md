@@ -9,4 +9,6 @@
 * [Ejercicios](Ejercicios/)
   * [Números Narcisistas](Ejercicios/numero_narcisista.md)
   * [Máscara de tarjeta de crédito](Ejercicios/mascara_tarjeta_credito.md)
+  * [Contador de bits](Ejercicios/contador_bits.md)
+
 
