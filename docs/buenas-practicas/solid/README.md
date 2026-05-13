@@ -31,8 +31,8 @@ graph TD
 
 ## Navegación
 
-- [S - Responsabilidad Única](principio-s)
-- [O - Abierto/Cerrado](principio-o)
-- [L - Substitución de Liskov](principio-l)
-- [I - Segregación de Interfaces](principio-i)
-- [D - Inversión de Dependencias](principio-d)
+- [S - Responsabilidad Única](buenas-practicas/solid/principio-s)
+- [O - Abierto/Cerrado](buenas-practicas/solid/principio-o)
+- [L - Substitución de Liskov](buenas-practicas/solid/principio-l)
+- [I - Segregación de Interfaces](buenas-practicas/solid/principio-i)
+- [D - Inversión de Dependencias](buenas-practicas/solid/principio-d)

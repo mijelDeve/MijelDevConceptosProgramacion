@@ -5,7 +5,7 @@
     * [O - Abierto/Cerrado](buenas-practicas/solid/principio-o)
     * [L - Substitución de Liskov](buenas-practicas/solid/principio-l)
     * [I - Segregación de Interfaces](buenas-practicas/solid/principio-i)
-    * [D - Inversión de Dependencias](buenas-practicas/solid/principio-d)
+    * [D - Inversión de Desidebpendencias](buenas-practicas/solid/principio-d)
 * [Ejercicios](Ejercicios/)
   * [Números Narcisistas](Ejercicios/numero_narcisista.md)
   * [Máscara de tarjeta de crédito](Ejercicios/mascara_tarjeta_credito.md)

@@ -9,7 +9,7 @@ Aquí encontrarás información sobre conceptos de programación, mejores práct
 ## Categorías
 
 ### Buenas Prácticas de Código
-- [Principios SOLID](buenas-practicas/solid/) - Los cinco principios fundamentales del diseño orientado a objetos
+- [Principios SOLID](buenas-practicas/solid/README.md) - Los cinco principios fundamentales del diseño orientado a objetos
 
 ## Cómo contribuir
 
