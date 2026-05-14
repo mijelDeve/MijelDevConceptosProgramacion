@@ -21,3 +21,20 @@ Este es tu espacio personal. Puedes agregar nueva información editando los arch
 - [Mermaid](https://mermaid.js.org/) - Diagramas y gráficos
 - [Prism.js](https://prismjs.com/) - Resaltado de sintaxis
 - Despliegue en [Vercel](https://vercel.com/)
+
+
+# Conceptos que un desarrollador debe conocer y yo aún no conozco
+
+- Clean code
+- Clean architecture
+- SOLID
+- GIT para expertos
+- SQL de manera intermedia
+- Inglés
+- Typescript
+  - Diferencias entre type e interface
+- React avanzado
+  - UseCallback
+  - UseMemo
+  - Ciclo de vida de los componentes
+- Arquitecturas de software
