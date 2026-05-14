@@ -33,6 +33,7 @@ Este es tu espacio personal. Puedes agregar nueva información editando los arch
 - Inglés
 - Typescript
   - Diferencias entre type e interface
+  - Diferencia entre implement y extends
 - React avanzado
   - UseCallback
   - UseMemo

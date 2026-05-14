@@ -36,3 +36,48 @@ graph TD
 - [L - Substitución de Liskov](buenas-practicas/solid/principio-l)
 - [I - Segregación de Interfaces](buenas-practicas/solid/principio-i)
 - [D - Inversión de Dependencias](buenas-practicas/solid/principio-d)
+
+# Conceptos que uno debe entender antes
+
+## Alto nivel vs bajo nivel
+
+**Alto nivel**
+
+Parte del sistema que contiene la lógica del Navegación
+
+**Bajo nivel**
+
+Tareas concretas y técnicas
+
+```typescript
+class MySQLDatabase {
+
+    public void guardarPedido() {
+        System.out.println("Pedido guardado en MySQL");
+    }
+}
+class GestorPedidos {
+
+    private MySQLDatabase db;
+
+    public GestorPedidos() {
+        db = new MySQLDatabase();
+    }
+
+    public void procesarPedido() {
+
+        System.out.println("Procesando pedido...");
+
+        db.guardarPedido();
+    }
+}
+```
+
+**Quién es alto nivel?**
+
+`class GestorPedidos`
+
+
+**Quién es bajo nivel?**
+
+`class MySQLDatabase`
