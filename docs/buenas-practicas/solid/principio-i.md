@@ -205,11 +205,128 @@ conductMeeting(human);     // ✅ Humano en reunión
 ## Sin aplicar ISP
 
 ```typescript
+// Interfaz violando el ISP
+interface NotificacionService {
+  sendEmail(to: string, subject: string, body: string): void;
+  sendSMS(phoneNumber: string, message: string): void;
+  sendPushNotification(deviceToken: string, title: string, body: string): void;
+  sendWhastssApp(phoneNumber: string, message: string): void;
+  getNotificationHistory(userId: string): any[];
+  markAsRead(notificationId: string): void;
+}
 
+class EmailOnlyService implements NotificacionService {
+  sendEmail(to: string, subject: string, body: string): void {
+    console.log(`Email a ${to}: ${subject}`);
+  }
+  
+  sendSMS(phoneNumber: string, message: string): void {
+    throw new Error("Este servicio solo envía emails");
+  }
+  
+  sendPushNotification(deviceToken: string, title: string, body: string): void {
+    throw new Error("Este servicio solo envía emails");
+  }
+  
+  sendWhatsApp(phoneNumber: string, message: string): void {
+    throw new Error("Este servicio solo envía emails");
+  }
+  
+  getNotificationHistory(userId: string): any[] {
+    throw new Error("No implementado");
+  }
+  
+  markAsRead(notificationId: string): void {
+    throw new Error("No implementado");
+  }
+}
 ```
 
 ## Aplicando ISP
 
 ```typescript
+// ✅ Aplicando ISP - interfaces segregadas
 
+// Interfaces específicas
+interface EmailSender {
+  sendEmail(to: string, subject: string, body: string): void;
+}
+
+interface SMSSender {
+  sendSMS(phoneNumber: string, message: string): void;
+}
+
+interface PushNotifier {
+  sendPushNotification(deviceToken: string, title: string, body: string): void;
+}
+
+interface WhatsAppSender {
+  sendWhatsApp(phoneNumber: string, message: string): void;
+}
+
+interface NotificationHistory {
+  getHistory(userId: string): NotificationRecord[];
+  markAsRead(notificationId: string): void;
+}
+
+type NotificationRecord = {
+  id: string;
+  userId: string;
+  message: string;
+  read: boolean;
+};
+
+// Implementación solo para emails
+class EmailService implements EmailSender {
+  sendEmail(to: string, subject: string, body: string): void {
+    console.log(`📧 Enviando email a ${to}: ${subject}`);
+    // Lógica real de email
+  }
+}
+
+// Implementación multi-canal (puede implementar varias interfaces)
+class MultiChannelNotificationService implements EmailSender, SMSSender, PushNotifier {
+  sendEmail(to: string, subject: string, body: string): void {
+    console.log(`📧 Email a ${to}`);
+  }
+  
+  sendSMS(phoneNumber: string, message: string): void {
+    console.log(`📱 SMS a ${phoneNumber}: ${message}`);
+  }
+  
+  sendPushNotification(deviceToken: string, title: string, body: string): void {
+    console.log(`🔔 Push a ${deviceToken}: ${title}`);
+  }
+}
+
+// Cliente solo depende de lo que necesita
+class NewsletterManager {
+  constructor(private emailSender: EmailSender) {}
+  
+  sendNewsletter(to: string, content: string): void {
+    this.emailSender.sendEmail(to, "Newsletter semanal", content);
+  }
+}
+
+class AlertSystem {
+  constructor(
+    private smsSender: SMSSender,
+    private pushNotifier: PushNotifier
+  ) {}
+  
+  sendCriticalAlert(phone: string, deviceToken: string, message: string): void {
+    this.smsSender.sendSMS(phone, message);
+    this.pushNotifier.sendPushNotification(deviceToken, "ALERTA", message);
+  }
+}
+
+// Uso flexible
+const emailService = new EmailService();
+const multiChannel = new MultiChannelNotificationService();
+
+const newsletter = new NewsletterManager(emailService);
+newsletter.sendNewsletter("cliente@email.com", "Ofertas especiales");
+
+const alerts = new AlertSystem(multiChannel, multiChannel);
+alerts.sendCriticalAlert("+123456789", "device-token-123", "Sistema caído!");
 ```
