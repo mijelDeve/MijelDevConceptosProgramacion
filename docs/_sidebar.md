@@ -10,5 +10,8 @@
   * [Números Narcisistas](Ejercicios/numero_narcisista.md)
   * [Máscara de tarjeta de crédito](Ejercicios/mascara_tarjeta_credito.md)
   * [Contador de bits](Ejercicios/contador_bits.md)
+* [Lenguajes de programación](lenguajes-programacion/)
+  * [Typescript](lenguajes-programacion/typescript/)
+    * [Interface vs type](lenguajes-programacion/typescript/interface-vs-type)
 
 
