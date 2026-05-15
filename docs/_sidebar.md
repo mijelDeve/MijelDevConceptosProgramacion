@@ -14,5 +14,7 @@
 * [Lenguajes de programación](lenguajes-programacion/)
   * [Typescript](lenguajes-programacion/typescript/)
     * [Interface vs type](lenguajes-programacion/typescript/interface-vs-type)
+* [Gestión de proyectos](gestion-proyectos/)
+  * [Kanban](gestion-proyectos/kanban/README.md)
 
 

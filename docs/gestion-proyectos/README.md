@@ -1,0 +1,9 @@
+# Gestión de proyectos
+
+En esta sección encontrarás artículos sobre gestión de proyectos.
+
+## Temas disponibles
+
+- [Kanban](/gestion-proyectos/kanban/)
+
+> **Nota:** Esta sección está en constante crecimiento. Volverás pronto para ver nuevo contenido.
