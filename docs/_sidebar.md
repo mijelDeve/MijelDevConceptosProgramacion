@@ -16,5 +16,11 @@
     * [Interface vs type](lenguajes-programacion/typescript/interface-vs-type)
 * [Gestión de proyectos](gestion-proyectos/)
   * [Kanban](gestion-proyectos/kanban/README.md)
+* [Frontend](frontend/)
+  * [NextJS](frontend/nextjs/README.md)
+    * [Estado en NextJS](frontend/nextjs/01-estado-en-nextjs.md)
+    * [Server Components VS Client Components](frontend/nextjs/02-server-vs-client-components.md)
+    * [Tutorial de Zustand](frontend/nextjs/03-tutorial-zustand.md)
+
 
 
