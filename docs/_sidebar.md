@@ -7,20 +7,22 @@
     * [I - Segregación de Interfaces](buenas-practicas/solid/principio-i)
     * [D - Inversión de Dependencias](buenas-practicas/solid/principio-d)
     * [Cuestionario](buenas-practicas/solid/questionario)
-* [Ejercicios](Ejercicios/)
-  * [Números Narcisistas](Ejercicios/numero_narcisista.md)
-  * [Máscara de tarjeta de crédito](Ejercicios/mascara_tarjeta_credito.md)
-  * [Contador de bits](Ejercicios/contador_bits.md)
 * [Lenguajes de programación](lenguajes-programacion/)
   * [Typescript](lenguajes-programacion/typescript/)
     * [Interface vs type](lenguajes-programacion/typescript/interface-vs-type)
 * [Gestión de proyectos](gestion-proyectos/)
   * [Kanban](gestion-proyectos/kanban/README.md)
+  * [Scrum](gestion-proyectos/scrum/README.md)
 * [Frontend](frontend/)
   * [NextJS](frontend/nextjs/README.md)
     * [Estado en NextJS](frontend/nextjs/01-estado-en-nextjs.md)
     * [Server Components VS Client Components](frontend/nextjs/02-server-vs-client-components.md)
     * [Tutorial de Zustand](frontend/nextjs/03-tutorial-zustand.md)
+
+* [Ejercicios](Ejercicios/)
+  * [Números Narcisistas](Ejercicios/numero_narcisista.md)
+  * [Máscara de tarjeta de crédito](Ejercicios/mascara_tarjeta_credito.md)
+  * [Contador de bits](Ejercicios/contador_bits.md)
 
 
 
