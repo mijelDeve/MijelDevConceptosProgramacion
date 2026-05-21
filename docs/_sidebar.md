@@ -18,6 +18,10 @@
     * [Estado en NextJS](frontend/nextjs/01-estado-en-nextjs.md)
     * [Server Components VS Client Components](frontend/nextjs/02-server-vs-client-components.md)
     * [Tutorial de Zustand](frontend/nextjs/03-tutorial-zustand.md)
+  * [React](frontend/react/)
+    * [Ciclo de vida de componentes](frontend/react/01-ciclo-de-vida-componentes.md)
+* [Backend](backend/)
+  * [Laravel](backend/laravel/README.md)
 
 * [Ejercicios](Ejercicios/)
   * [Números Narcisistas](Ejercicios/numero_narcisista.md)
