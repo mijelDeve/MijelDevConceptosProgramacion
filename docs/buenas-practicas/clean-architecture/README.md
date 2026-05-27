@@ -6,13 +6,13 @@
 
 ### PARTE I: Introducción
 
-- [Capítulo 1: ¿Qué es el diseño y la arquitectura?](01-que-es-el-diseno-y-la-arquitectura)
-- [Capítulo 2: Una historia de dos valores (Comportamiento y Estructura)](02-una-historia-de-dos-valores)
+- [Capítulo 1: ¿Qué es el diseño y la arquitectura?](buenas-practicas/clean-architecture/01-que-es-el-diseno-y-la-arquitectura)
+- [Capítulo 2: Una historia de dos valores (Comportamiento y Estructura)](buenas-practicas/clean-architecture/02-una-historia-de-dos-valores)
 
 ### PARTE II: Comenzando con los ladrillos: paradigmas de programación
 
-- [Capítulo 3: Descripción general del paradigma](03-descripcion-general-del-paradigma)
-- [Capítulo 4: Programación estructurada](#)
+- [Capítulo 3: Descripción general del paradigma](buenas-practicas/clean-architecture/03-descripcion-general-del-paradigma)
+- [Capítulo 4: Programación estructurada](buenas-practicas/clean-architecture/04-programacion-estructurada)
 - [Capítulo 5: Programación orientada a objetos](#)
 - [Capítulo 6: Programación funcional](#)
 

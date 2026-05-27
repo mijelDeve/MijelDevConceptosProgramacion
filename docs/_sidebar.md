@@ -11,6 +11,7 @@
     * [Cap 1: ¿Qué es el diseño y la arquitectura?](buenas-practicas/clean-architecture/01-que-es-el-diseno-y-la-arquitectura)
     * [Cap 2: Una historia de dos valores](buenas-practicas/clean-architecture/02-una-historia-de-dos-valores)
     * [Cap 3: Descripción general del paradigma](buenas-practicas/clean-architecture/03-descripcion-general-del-paradigma)
+    * [Cap 4: Programación estructurada](buenas-practicas/clean-architecture/04-programacion-estructurada)
 * [Lenguajes de programación](lenguajes-programacion/)
   * [Typescript](lenguajes-programacion/typescript/)
     * [Interface vs type](lenguajes-programacion/typescript/interface-vs-type)
