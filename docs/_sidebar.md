@@ -12,6 +12,7 @@
     * [Cap 2: Una historia de dos valores](buenas-practicas/clean-architecture/02-una-historia-de-dos-valores)
     * [Cap 3: Descripción general del paradigma](buenas-practicas/clean-architecture/03-descripcion-general-del-paradigma)
     * [Cap 4: Programación estructurada](buenas-practicas/clean-architecture/04-programacion-estructurada)
+    * [Cap 5: Programación orientada a objetos](buenas-practicas/clean-architecture/05-programacion-orientada-a-objetos)
 * [Lenguajes de programación](lenguajes-programacion/)
   * [Typescript](lenguajes-programacion/typescript/)
     * [Interface vs type](lenguajes-programacion/typescript/interface-vs-type)

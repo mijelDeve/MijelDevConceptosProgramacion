@@ -13,7 +13,7 @@
 
 - [Capítulo 3: Descripción general del paradigma](buenas-practicas/clean-architecture/03-descripcion-general-del-paradigma)
 - [Capítulo 4: Programación estructurada](buenas-practicas/clean-architecture/04-programacion-estructurada)
-- [Capítulo 5: Programación orientada a objetos](#)
+- [Capítulo 5: Programación orientada a objetos](buenas-practicas/clean-architecture/05-programacion-orientada-a-objetos)
 - [Capítulo 6: Programación funcional](#)
 
 ### PARTE III: Principios de diseño (Principios SOLID)
