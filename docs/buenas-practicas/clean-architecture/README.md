@@ -11,7 +11,7 @@
 
 ### PARTE II: Comenzando con los ladrillos: paradigmas de programación
 
-- [Capítulo 3: Descripción general del paradigma](#)
+- [Capítulo 3: Descripción general del paradigma](03-descripcion-general-del-paradigma)
 - [Capítulo 4: Programación estructurada](#)
 - [Capítulo 5: Programación orientada a objetos](#)
 - [Capítulo 6: Programación funcional](#)
