@@ -14,15 +14,15 @@
 - [Capítulo 3: Descripción general del paradigma](buenas-practicas/clean-architecture/03-descripcion-general-del-paradigma)
 - [Capítulo 4: Programación estructurada](buenas-practicas/clean-architecture/04-programacion-estructurada)
 - [Capítulo 5: Programación orientada a objetos](buenas-practicas/clean-architecture/05-programacion-orientada-a-objetos)
-- [Capítulo 6: Programación funcional](#)
+- [Capítulo 6: Programación funcional](buenas-practicas/clean-architecture/06-programacion-funcional)
 
 ### PARTE III: Principios de diseño (Principios SOLID)
 
-- [Capítulo 7: SRP — El principio de responsabilidad única](#)
-- [Capítulo 8: OCP — El principio abierto-cerrado](#)
-- [Capítulo 9: LSP — El principio de sustitución de Liskov](#)
-- [Capítulo 10: ISP — El principio de segregación de interfaces](#)
-- [Capítulo 11: DIP — El principio de inversión de dependencia](#)
+- [Capítulo 7: SRP — El principio de responsabilidad única](buenas-practicas/solid/principio-s)
+- [Capítulo 8: OCP — El principio abierto-cerrado](buenas-practicas/solid/principio-o)
+- [Capítulo 9: LSP — El principio de sustitución de Liskov](buenas-practicas/solid/principio-l)
+- [Capítulo 10: ISP — El principio de segregación de interfaces](buenas-practicas/solid/principio-i)
+- [Capítulo 11: DIP — El principio de inversión de dependencia](buenas-practicas/solid/principio-d)
 
 ### PARTE IV: Principios de los componentes
 
