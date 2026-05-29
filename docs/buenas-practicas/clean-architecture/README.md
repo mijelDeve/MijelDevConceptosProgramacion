@@ -26,8 +26,8 @@
 
 ### PARTE IV: Principios de los componentes
 
-- [Capítulo 12: Componentes](#)
-- [Capítulo 13: Cohesión de componentes](#)
+- [Capítulo 12: Componentes](buenas-practicas/clean-architecture/12-componentes)
+- [Capítulo 13: Cohesión de componentes](buenas-practicas/clean-architecture/13-cohesion-de-componentes)
 - [Capítulo 14: Acoplamiento de componentes](#)
 
 ### PARTE V: Arquitectura
