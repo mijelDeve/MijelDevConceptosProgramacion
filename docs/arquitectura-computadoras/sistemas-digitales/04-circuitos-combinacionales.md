@@ -70,4 +70,3 @@ Para evitar el uso excesivo de componentes, se presentan dos métodos:
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/oG2c87Jln34" title="Mapa de Karnaugh - 4 variables" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Este conocimiento es fundamental para tu proyecto del Arduino Mega 2560, ya que te permite diseñar la lógica combinacional necesaria para que el sistema decida, por ejemplo, cuándo activar el Buzzer o cambiar el color del LED RGB basándose en las combinaciones de señales de los sensores de temperatura y movimiento.
