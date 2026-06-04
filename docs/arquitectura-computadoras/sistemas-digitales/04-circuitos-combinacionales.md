@@ -52,10 +52,22 @@ Para evitar el uso excesivo de componentes, se presentan dos métodos:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/6SFNbdhjS7Q" title="Simplificación algebraica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 - **Mapa de Karnaugh:** Es un método gráfico que permite una simplificación rápida y visual. Se basa en agrupar casillas adyacentes de 2ⁿ términos (1, 2, 4, 8...) para eliminar las variables que cambian de estado en cada grupo.
 
-  1. <iframe width="560" height="315" src="https://www.youtube.com/embed/nIgIREYHbx4" title="Mapa de Karnaugh 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  **2 variables**
 
-  2. <iframe width="560" height="315" src="https://www.youtube.com/embed/vacBsx_ZljY" title="Mapa de Karnaugh 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7wFCzMdgmFU" title="Mapa de Karnaugh - 2 variables" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-  3. <iframe width="560" height="315" src="https://www.youtube.com/embed/9dd6eW6-p1M" title="Mapa de Karnaugh 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  **3 variables**
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EmAmKbk94I0" title="Mapa de Karnaugh - 3 variables" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  **4 variables**
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nIgIREYHbx4" title="Mapa de Karnaugh 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vacBsx_ZljY" title="Mapa de Karnaugh 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9dd6eW6-p1M" title="Mapa de Karnaugh 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/oG2c87Jln34" title="Mapa de Karnaugh - 4 variables" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Este conocimiento es fundamental para tu proyecto del Arduino Mega 2560, ya que te permite diseñar la lógica combinacional necesaria para que el sistema decida, por ejemplo, cuándo activar el Buzzer o cambiar el color del LED RGB basándose en las combinaciones de señales de los sensores de temperatura y movimiento.
