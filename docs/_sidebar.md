@@ -58,6 +58,7 @@
     * [Tutorial de Zustand](frontend/nextjs/03-tutorial-zustand.md)
   * [React](frontend/react/)
     * [Ciclo de vida de componentes](frontend/react/01-ciclo-de-vida-componentes.md)
+    * [useMemo vs React.memo](frontend/react/02-usememo-vs-react-memo.md)
 * [Backend](backend/)
   * [Laravel](backend/laravel/README.md)
 
