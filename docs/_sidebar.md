@@ -59,6 +59,7 @@
   * [React](frontend/react/)
     * [Ciclo de vida de componentes](frontend/react/01-ciclo-de-vida-componentes.md)
     * [useMemo vs React.memo](frontend/react/02-usememo-vs-react-memo.md)
+    * [Configuración de Proyectos React con Vite](frontend/react/03-configuracion-proyectos-vite.md)
 * [Backend](backend/)
   * [Laravel](backend/laravel/README.md)
 
