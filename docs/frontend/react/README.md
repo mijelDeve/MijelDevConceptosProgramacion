@@ -5,3 +5,5 @@
 - [3. Configuración de Proyectos React con Vite](frontend/react/03-configuracion-proyectos-vite.md)
 - [4. Stale Closure](frontend/react/04-stale-closure.md)
 - [5. useRef](frontend/react/05-useref.md)
+- [6. Estado Global en React](frontend/react/06-estado-global-react.md)
+- [7. TanStack Query](frontend/react/07-tanstack-query.md)
