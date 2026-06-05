@@ -4,5 +4,6 @@ En esta sección encontrarás manuales para diferentes lenguajes de programació
 ## Temas disponibles
 
 - [Typescript](/lenguajes-programacion/typescript/README.md) - Los cinco principios fundamentales del diseño orientado a objetos
+- [JavaScript](/lenguajes-programacion/javascript/README.md) - Estructuras de datos y conceptos fundamentales
 
 > **Nota:** Esta sección está en constante crecimiento. Volverás pronto para ver nuevo contenido.
