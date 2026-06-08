@@ -23,6 +23,7 @@
      * [Cap 13: Cohesión de componentes](buenas-practicas/clean-architecture/13-cohesion-de-componentes)
    * [Patrones de Diseño](buenas-practicas/patrones-de-diseno/)
      * [Arquitectura Limpia / Hexagonal](buenas-practicas/patrones-de-diseno/arquitectura-limpia-hexagonal)
+     * [Screaming Architecture](buenas-practicas/patrones-de-diseno/screaming-architecture)
      * [MVC](buenas-practicas/patrones-de-diseno/mvc)
      * [Container & Presentational](buenas-practicas/patrones-de-diseno/container-presentational)
      * [Componentes Compuestos](buenas-practicas/patrones-de-diseno/componentes-compuestos)
@@ -81,6 +82,8 @@
     * [Fundamentos de un Design System](frontend/sistemas-diseno/01-fundamentos-design-system.md)
   * [Accesibilidad Web](frontend/accesibilidad-web/)
     * [Fundamentos de a11y](frontend/accesibilidad-web/01-fundamentos-a11y.md)
+  * [Librerías](frontend/librerias/)
+    * [nuqs — Estado en URL](frontend/librerias/nuqs)
 * [Backend](backend/)
   * [Laravel](backend/laravel/README.md)
 
