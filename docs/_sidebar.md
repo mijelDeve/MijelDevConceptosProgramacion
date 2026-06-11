@@ -72,6 +72,7 @@
       * [TanStack Query](frontend/react/temas-generales/07-tanstack-query.md)
       * [Prop Drilling](frontend/react/temas-generales/09-prop-drilling.md)
       * [React Hook Form](frontend/react/temas-generales/12-react-hook-form.md)
+      * [Formulario por pasos (Wizard)](frontend/react/temas-generales/13-formulario-por-pasos.md)
     * [Build Hooks (nativos)](frontend/react/build-hooks/)
       * [useMemo vs React.memo](frontend/react/build-hooks/02-usememo-vs-react-memo.md)
       * [Stale Closure](frontend/react/build-hooks/04-stale-closure.md)
@@ -89,6 +90,7 @@
     * [Fundamentos de a11y](frontend/accesibilidad-web/01-fundamentos-a11y.md)
   * [Librerías](frontend/librerias/)
     * [nuqs — Estado en URL](frontend/librerias/nuqs)
+    * [date-fns — Fechas en JavaScript](frontend/librerias/date-fns)
 * [Backend](backend/)
   * [Laravel](backend/laravel/README.md)
 
