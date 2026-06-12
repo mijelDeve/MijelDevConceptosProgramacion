@@ -1,0 +1,1 @@
+# Storage: localStorage, sessionStorage, IndexedDB

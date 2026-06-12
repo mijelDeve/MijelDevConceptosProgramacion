@@ -1,0 +1,1 @@
+# Scope: global, function, block scope
