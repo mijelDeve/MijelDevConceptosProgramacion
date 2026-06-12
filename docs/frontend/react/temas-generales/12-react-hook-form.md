@@ -114,7 +114,61 @@ function LoginForm() {
 
 ---
 
-## 5. Respuesta para entrevista
+## 6. Caso especial: `trigger()` y el modo de validación
+
+Al usar `trigger(fields)` manualmente en un wizard o validación por pasos, los errores dejan de limpiarse automáticamente al escribir.
+
+### Causa raíz
+
+Por defecto `useForm` usa `mode: 'onSubmit'`. Al llamar `trigger()` explícitamente, los errores quedan "fijos" porque RHF no re-valida en cada cambio a menos que se lo configures.
+
+```tsx
+const form = useForm<UserFormValues>({
+  resolver: zodResolver(CreateUserSchema),
+  defaultValues,
+  // ❌ Sin mode definido → mode: 'onSubmit' por defecto
+  //    trigger() marca errores, pero no se limpian al escribir
+});
+```
+
+### Solución
+
+Agrega `mode: 'onChange'` o `'onTouched'` en `useForm`:
+
+```tsx
+const form = useForm<UserFormValues>({
+  resolver: zodResolver(CreateUserSchema),
+  defaultValues,
+  mode: 'onChange', // 👈 re-valida al escribir y limpia errores automáticamente
+});
+```
+
+Si `onChange` es muy agresivo (marca errores antes de que el usuario termine de escribir), usa `onTouched`:
+
+```tsx
+const form = useForm<UserFormValues>({
+  resolver: zodResolver(CreateUserSchema),
+  defaultValues,
+  mode: 'onTouched', // 👈 valida al salir del campo (blur) y luego onChange
+});
+```
+
+### Comparativa de modos
+
+| mode | Cuándo valida |
+|---|---|
+| `onSubmit` | Solo al hacer submit (default) |
+| `onChange` | Cada keystroke después del primer trigger o submit |
+| `onTouched` | Al primer blur del campo, luego en cada cambio |
+| `onBlur` | Solo al perder el foco |
+
+### ¿Por qué funciona?
+
+Con `onTouched` obtienes el mejor UX para formularios multi-step: no molesta al usuario mientras escribe por primera vez, pero sí limpia el error en cuanto corrige el valor.
+
+---
+
+## 7. Respuesta para entrevista
 
 > *"React Hook Form es una librería especializada en el manejo de formularios. A diferencia de usar solo `useState`, que provoca muchos re-renders y requiere escribir mucha lógica manual, React Hook Form es mucho más performante, reduce boilerplate y facilita validaciones.*
 >
