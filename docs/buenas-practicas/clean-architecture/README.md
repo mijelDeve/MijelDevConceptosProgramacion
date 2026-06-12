@@ -28,7 +28,7 @@
 
 - [Capítulo 12: Componentes](buenas-practicas/clean-architecture/12-componentes)
 - [Capítulo 13: Cohesión de componentes](buenas-practicas/clean-architecture/13-cohesion-de-componentes)
-- [Capítulo 14: Acoplamiento de componentes](#)
+- [Capítulo 14: Acoplamiento de componentes](buenas-practicas/clean-architecture/14-acoplamiento-de-componentes)
 
 ### PARTE V: Arquitectura
 

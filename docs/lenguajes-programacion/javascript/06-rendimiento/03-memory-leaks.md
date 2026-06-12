@@ -1,0 +1,1 @@
+# Evitar memory leaks

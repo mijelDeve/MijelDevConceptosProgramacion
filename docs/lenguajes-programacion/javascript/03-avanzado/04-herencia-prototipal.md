@@ -1,0 +1,1 @@
+# Herencia prototipal vs clásica

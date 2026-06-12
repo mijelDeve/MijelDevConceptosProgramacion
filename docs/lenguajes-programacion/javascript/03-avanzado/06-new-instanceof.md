@@ -1,0 +1,1 @@
+# new, instanceof, Object.getPrototypeOf
