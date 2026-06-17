@@ -133,6 +133,7 @@
 * [Git](git/)
   * [Feature Branch Workflow](git/feature-branch-workflow)
   * [Conventional Commits](git/conventional-commits)
+  * [PR desde terminal](git/pr-desde-terminal)
 * [Arquitectura de Computadoras](arquitectura-computadoras/)
   * [Sistemas Digitales y Arquitectura](arquitectura-computadoras/sistemas-digitales/)
     * [1. Fundamentos de los Sistemas Digitales](arquitectura-computadoras/sistemas-digitales/01-fundamentos-sistemas-digitales.md)
