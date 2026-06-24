@@ -179,6 +179,7 @@
     * [date-fns — Fechas en JavaScript](frontend/librerias/date-fns)
 * [Backend](backend/)
   * [Laravel](backend/laravel/README.md)
+    * [Migraciones](backend/laravel/04-migraciones.md)
 
 * [Ejercicios](Ejercicios/)
   * [Números Narcisistas](Ejercicios/numero_narcisista.md)
