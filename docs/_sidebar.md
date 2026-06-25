@@ -186,5 +186,12 @@
   * [Contador de bits](Ejercicios/contador_bits.md)
   * [Caminata de 10 minutos](Ejercicios/caminata_de_10_minutos.md)
 
+* [Certificaciones](certificaciones/)
+  * [AWS](certificaciones/aws/)
+    * [Cloud Practitioner](certificaciones/aws/cloud-practitioner/)
+    * [AI Practitioner](certificaciones/aws/ia-practitioner/)
+      * [M1: Fundamentos IA y ML](certificaciones/aws/ia-practitioner/modulo-1-fundamentos-ia-ml/)
+        * [Clase 1: Introducción](certificaciones/aws/ia-practitioner/modulo-1-fundamentos-ia-ml/clase-1-introduccion)
+
 
 
