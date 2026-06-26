@@ -12,6 +12,8 @@ Un **decodificador** es un circuito que convierte un código binario de entrada 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T8vqZqTPOdU" title="Decodificadores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9W8Z070YAYU" title="Decodificadores 2×4 y 3×8 — Diseño y funcionamiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 - **Funcionamiento:** Para cada combinación de entrada, una y solo una de las salidas se activa (valor lógico 1 o bajo, según el diseño).
 - **Relación de líneas:** Se rige por la fórmula 2ⁿ ≥ m.
 - **Aplicaciones:** Se utilizan para direccionar memorias y periféricos, convertir códigos e implementar funciones lógicas.
