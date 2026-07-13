@@ -181,6 +181,8 @@
     * [Zustand — Gestión de Estado](frontend/zustand/)
       * [Tutorial Completo](frontend/zustand/01-tutorial-zustand)
       * [Mutaciones Inmutables + Immer](frontend/zustand/02-mutaciones-inmutables-immer)
+      * [Selectores y Optimización de Renders](frontend/zustand/03-selectores-optimizacion-renders)
+      * [useShallow](frontend/zustand/04-use-shallow)
 * [Backend](backend/)
   * [Laravel](backend/laravel/README.md)
     * [Migraciones](backend/laravel/04-migraciones.md)
