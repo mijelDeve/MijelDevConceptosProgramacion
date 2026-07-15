@@ -4,11 +4,28 @@
 
 Es mucho más rápido que phpMyAdmin o herramientas gráficas.
 
+### 1.1. Con redirección (<)
+
 ```bash
 mysql -u usuario -p nombre_base < backup.sql
 ```
 
-Si estás en Windows PowerShell:
+**Cuándo usarlo:** Automatización, scripts headless, despliegues en CI/CD, entornos donde no necesitas ver la salida de cada sentencia.
+
+### 1.2. Con USE + SOURCE
+
+Dentro del cliente MySQL:
+
+```sql
+USE nombre_base;
+SOURCE /ruta/backup.sql;
+```
+
+**Cuándo usarlo:** Depuración, necesitas ver errores línea por línea, quieres ejecutar comandos adicionales antes o después de la importación, o prefieres trabajar de forma interactiva.
+
+### 1.3. PowerShell y CMD
+
+En Windows PowerShell:
 
 ```powershell
 Get-Content backup.sql | mysql -u usuario -p nombre_base

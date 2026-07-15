@@ -142,6 +142,7 @@
     * [6. Manejadores de Datos](arquitectura-computadoras/sistemas-digitales/06-manejadores-datos.md)
 * [Base de Datos](base-de-datos/)
   * [Importación de Datos](base-de-datos/importacion-datos)
+  * [MySQL: Conceptos básicos](base-de-datos/mysql-conceptos-basicos)
 * [Frontend](frontend/)
   * [NextJS](frontend/nextjs/README.md)
     * [Estado en NextJS](frontend/nextjs/01-estado-en-nextjs.md)
