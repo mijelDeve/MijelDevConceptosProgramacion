@@ -1,5 +1,8 @@
 # React Hook Form
 
+- [React Hook Form](#react-hook-form)
+- [useFieldArray](01-usefieldarray.md)
+
 ---
 
 ## 1. ¿Qué es React Hook Form?
@@ -114,7 +117,7 @@ function LoginForm() {
 
 ---
 
-## 6. Caso especial: `trigger()` y el modo de validación
+## 5. Caso especial: `trigger()` y el modo de validación
 
 Al usar `trigger(fields)` manualmente en un wizard o validación por pasos, los errores dejan de limpiarse automáticamente al escribir.
 
@@ -168,7 +171,7 @@ Con `onTouched` obtienes el mejor UX para formularios multi-step: no molesta al 
 
 ---
 
-## 7. Respuesta para entrevista
+## 6. Respuesta para entrevista
 
 > *"React Hook Form es una librería especializada en el manejo de formularios. A diferencia de usar solo `useState`, que provoca muchos re-renders y requiere escribir mucha lógica manual, React Hook Form es mucho más performante, reduce boilerplate y facilita validaciones.*
 >
