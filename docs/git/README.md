@@ -9,3 +9,4 @@ En esta sección encontrarás artículos sobre estrategias y flujos de trabajo c
 - [PR desde terminal](/git/pr-desde-terminal)
 - [Git Stash](/git/git-stash)
 - [Git Rebase](/git/git-rebase)
+- [Git Cherry-Pick](/git/git-cherry-pick)
