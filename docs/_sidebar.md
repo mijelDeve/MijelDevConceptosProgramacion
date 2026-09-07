@@ -192,6 +192,9 @@
   * [Laravel](backend/laravel/README.md)
     * [Migraciones](backend/laravel/04-migraciones.md)
     * [Colas](backend/laravel/05-colas.md)
+* [CI/CD](ci-cd/)
+  * [GitHub Actions](ci-cd/github-actions/)
+    * [1. Disparadores y eventos](ci-cd/github-actions/01-disparadores-y-eventos.md)
 
 * [Desarrollo Móvil](desarrollo-movil/)
   * [React Native](desarrollo-movil/react-native/README.md)
