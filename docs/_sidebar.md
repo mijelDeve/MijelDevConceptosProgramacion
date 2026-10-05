@@ -202,6 +202,8 @@
   * [React Native](desarrollo-movil/react-native/README.md)
     * [Rutas y navegación](desarrollo-movil/react-native/01-rutas-y-navegacion)
     * [Tutorial Expo Router](desarrollo-movil/react-native/02-tutorial-expo-router)
+    * [Stack vs Tabs y rutas por archivos](desarrollo-movil/react-native/03-stack-vs-tabs)
+    * [Componentes nativos](desarrollo-movil/react-native/04-componentes-nativos)
 
 * [Ejercicios](Ejercicios/)
   * [Números Narcisistas](Ejercicios/numero_narcisista.md)
